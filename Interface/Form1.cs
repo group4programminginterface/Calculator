@@ -12,7 +12,7 @@ namespace Interface
 {
     public partial class Calulator : Form
     {
-
+        
         public Calulator()
         {
             InitializeComponent();
@@ -67,20 +67,55 @@ namespace Interface
         }
         void xoa1()
         {
-            if (!kiemtra)
+           /*
+           if (!kiemtra)
             {
                 if (chuoi1==null) {ScreenButtom.Text = "0"; }
                 else
-                    chuoi1.Remove(chuoi1.Length - 1, 1);
+                    chuoi1.Remove((chuoi1.Length - 1),1);
             }
             else
             {
                 if (chuoi2==null) {ScreenButtom.Text = "0"; }
                 else
-                    chuoi2.Remove(chuoi2.Length - 1, 1);
+                    chuoi2.Remove((chuoi2.Length - 1),1);
             }
             if (phimbang) xoa();
             hienthi();
+             */
+            
+            if (!kiemtra)
+            {
+                if (chuoi1 == null) { ScreenButtom.Text = "0"; }
+                else
+                {
+                    string str = chuoi1;
+                    int n = str.Length;
+                    chuoi1 = (str.Substring(0, n - 1));
+                    if (chuoi1.Length == 0) { chuoi1 = "0"; }
+                    
+                }
+                   
+                    
+                    //chuoi1.Remove(chuoi1.Length - 1, 1);
+                
+
+            }
+            else
+            {
+                if (chuoi2 == null) { ScreenButtom.Text = "0"; }
+                else
+                {
+                    string str = chuoi2;
+                    int n = str.Length;
+                    chuoi2 = (str.Substring(0, n - 1));
+                    if (chuoi2.Length == 0) { chuoi2 = "0"; }
+                    //chuoi2.Remove(chuoi2.Length - 1, 1);
+                }
+            }
+            if (phimbang) xoa();
+            hienthi();
+            
         }
         void xoa()
         {
@@ -91,7 +126,46 @@ namespace Interface
         }
         private void button_0_Click(object sender, EventArgs e)
         {
-            them("0");
+
+            if ((chuoi1 == "0"))
+            {
+                if (pheptinh == null)
+                {
+                    chuoi1 = null;
+                }
+                else if (pheptinh != null)
+                {
+                    if (chuoi2=="0")
+                    {
+                        chuoi2 = "0";
+                    }
+                    else if (chuoi2 != "0")
+                    {
+                        them("0");
+                    }
+                    
+                }
+            }
+            else if ((chuoi1 != "0"))
+            {
+                them("0");
+            }
+
+
+           
+           /*     if (chuoi1 == "0")
+                {
+                    xoa();
+                    kiemtra = false;
+
+                }
+                else if (chuoi2 == null)
+                {
+                    xoa();
+                    kiemtra = false;
+                }
+                them("0");
+            */
         }
 
         private void button_1_Click(object sender, EventArgs e)
@@ -141,7 +215,9 @@ namespace Interface
 
         private void button_dot_Click(object sender, EventArgs e)
         {
-            them(".");
+            if(! ((chuoi1.Contains(",")) && chuoi2.Contains(",")) )
+            them(",");
+            
         }
         void congdon()
         {
@@ -357,6 +433,46 @@ namespace Interface
             if (chuoi1 != null)
                 chuoi1 = ToanHoc.canbac(double.Parse(chuoi1),3).ToString();
             hienthi();
+        }
+
+        private void button39_Click(object sender, EventArgs e)
+        {
+            them("(");
+        }
+
+        private void button33_Click(object sender, EventArgs e)
+        {
+            them(")");
+        }
+
+        private void button_CE_Click(object sender, EventArgs e)
+        {
+            if (chuoi1 == null)
+            {
+                chuoi1 = null;
+                ScreenTop.Text = null;
+                ScreenButtom.Text = "0";
+            }
+            else
+            {
+                if (pheptinh == null)
+                {
+                    chuoi1 = null;
+                    ScreenTop.Text = null;
+                    ScreenButtom.Text = "0";
+                }
+                else
+                {
+                ScreenTop.Text = chuoi1+pheptinh;
+                ScreenButtom.Text = "0";
+                }
+            }
+            if(chuoi2!=null)
+            {
+                chuoi2 = null;
+                ScreenTop.Text = chuoi1 + pheptinh;
+                ScreenButtom.Text = "0";
+            }
         }
 
     }

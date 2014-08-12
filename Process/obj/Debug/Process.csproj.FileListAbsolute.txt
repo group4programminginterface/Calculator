@@ -13,3 +13,8 @@ D:\Calculator\Process\bin\Debug\Process.pdb
 D:\Calculator\Process\obj\Debug\Process.dll
 D:\Calculator\Process\obj\Debug\Process.pdb
 D:\Calculator\Process\obj\Debug\Process.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Calculator\Process\bin\Debug\Process.dll
+C:\Users\Administrator\Documents\GitHub\Calculator\Process\bin\Debug\Process.pdb
+C:\Users\Administrator\Documents\GitHub\Calculator\Process\obj\Debug\Process.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Calculator\Process\obj\Debug\Process.dll
+C:\Users\Administrator\Documents\GitHub\Calculator\Process\obj\Debug\Process.pdb
