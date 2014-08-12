@@ -1,0 +1,15 @@
+C:\Users\Cuong\Google Drive\Groupbox\Calculator\Process\bin\Debug\Process.dll
+C:\Users\Cuong\Google Drive\Groupbox\Calculator\Process\bin\Debug\Process.pdb
+C:\Users\Cuong\Google Drive\Groupbox\Calculator\Process\obj\Debug\Process.dll
+C:\Users\Cuong\Google Drive\Groupbox\Calculator\Process\obj\Debug\Process.pdb
+C:\Users\Cuong\Google Drive\Groupbox\Calculator\Process\obj\Debug\Process.csprojResolveAssemblyReference.cache
+C:\Users\Cuong\Desktop\Calculator\Process\bin\Debug\Process.dll
+C:\Users\Cuong\Desktop\Calculator\Process\bin\Debug\Process.pdb
+C:\Users\Cuong\Desktop\Calculator\Process\obj\Debug\Process.csprojResolveAssemblyReference.cache
+C:\Users\Cuong\Desktop\Calculator\Process\obj\Debug\Process.dll
+C:\Users\Cuong\Desktop\Calculator\Process\obj\Debug\Process.pdb
+D:\Calculator\Process\bin\Debug\Process.dll
+D:\Calculator\Process\bin\Debug\Process.pdb
+D:\Calculator\Process\obj\Debug\Process.dll
+D:\Calculator\Process\obj\Debug\Process.pdb
+D:\Calculator\Process\obj\Debug\Process.csprojResolveAssemblyReference.cache

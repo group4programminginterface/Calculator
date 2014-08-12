@@ -1,0 +1,46 @@
+E:\Box Sync\Documents\Information Technolory\Lap Trinh Giao Dien\Calculator\Interface\bin\Debug\Interface.exe
+E:\Box Sync\Documents\Information Technolory\Lap Trinh Giao Dien\Calculator\Interface\bin\Debug\Interface.pdb
+E:\Box Sync\Documents\Information Technolory\Lap Trinh Giao Dien\Calculator\Interface\obj\x86\Debug\Interface.Properties.Resources.resources
+E:\Box Sync\Documents\Information Technolory\Lap Trinh Giao Dien\Calculator\Interface\obj\x86\Debug\Interface.exe
+E:\Box Sync\Documents\Information Technolory\Lap Trinh Giao Dien\Calculator\Interface\obj\x86\Debug\Interface.pdb
+E:\Box Sync\Documents\Information Technolory\Lap Trinh Giao Dien\Calculator\Interface\obj\x86\Debug\Interface.Calulator.resources
+E:\Box Sync\Documents\Information Technolory\Lap Trinh Giao Dien\Calculator\Interface\obj\x86\Debug\Interface.csprojResolveAssemblyReference.cache
+E:\Box Sync\Documents\Information Technolory\Lap Trinh Giao Dien\Calculator\Interface\obj\x86\Debug\Interface.csproj.GenerateResource.Cache
+E:\Dropbox\Dropbox\Groupbox\Calculator\Interface\obj\x86\Debug\Interface.exe
+E:\Dropbox\Dropbox\Groupbox\Calculator\Interface\obj\x86\Debug\Interface.pdb
+E:\Dropbox\Dropbox\Groupbox\Calculator\Interface\bin\Debug\Interface.exe
+E:\Dropbox\Dropbox\Groupbox\Calculator\Interface\bin\Debug\Interface.pdb
+E:\Dropbox\Dropbox\Groupbox\Calculator\Interface\obj\x86\Debug\Interface.csprojResolveAssemblyReference.cache
+E:\Dropbox\Dropbox\Groupbox\Calculator\Interface\obj\x86\Debug\Interface.Calulator.resources
+E:\Dropbox\Dropbox\Groupbox\Calculator\Interface\obj\x86\Debug\Interface.Properties.Resources.resources
+E:\Dropbox\Dropbox\Groupbox\Calculator\Interface\obj\x86\Debug\Interface.csproj.GenerateResource.Cache
+C:\Users\Cuong\Google Drive\Groupbox\Calculator\Interface\obj\x86\Debug\Interface.exe
+C:\Users\Cuong\Google Drive\Groupbox\Calculator\Interface\obj\x86\Debug\Interface.pdb
+C:\Users\Cuong\Google Drive\Groupbox\Calculator\Interface\bin\Debug\Interface.exe
+C:\Users\Cuong\Google Drive\Groupbox\Calculator\Interface\bin\Debug\Interface.pdb
+C:\Users\Cuong\Google Drive\Groupbox\Calculator\Interface\obj\x86\Debug\Interface.csprojResolveAssemblyReference.cache
+C:\Users\Cuong\Google Drive\Groupbox\Calculator\Interface\obj\x86\Debug\Interface.Calulator.resources
+C:\Users\Cuong\Google Drive\Groupbox\Calculator\Interface\obj\x86\Debug\Interface.Properties.Resources.resources
+C:\Users\Cuong\Google Drive\Groupbox\Calculator\Interface\obj\x86\Debug\Interface.csproj.GenerateResource.Cache
+C:\Users\Cuong\Google Drive\Groupbox\Calculator\Interface\bin\Debug\Process.dll
+C:\Users\Cuong\Google Drive\Groupbox\Calculator\Interface\bin\Debug\Process.pdb
+C:\Users\Cuong\Desktop\Calculator\Interface\obj\x86\Debug\Interface.exe
+C:\Users\Cuong\Desktop\Calculator\Interface\obj\x86\Debug\Interface.pdb
+C:\Users\Cuong\Desktop\Calculator\Interface\obj\x86\Debug\Interface.csprojResolveAssemblyReference.cache
+C:\Users\Cuong\Desktop\Calculator\Interface\obj\x86\Debug\Interface.Calulator.resources
+C:\Users\Cuong\Desktop\Calculator\Interface\obj\x86\Debug\Interface.Properties.Resources.resources
+C:\Users\Cuong\Desktop\Calculator\Interface\obj\x86\Debug\Interface.csproj.GenerateResource.Cache
+C:\Users\Cuong\Desktop\Calculator\Interface\bin\Debug\Interface.exe
+C:\Users\Cuong\Desktop\Calculator\Interface\bin\Debug\Interface.pdb
+C:\Users\Cuong\Desktop\Calculator\Interface\bin\Debug\Process.dll
+C:\Users\Cuong\Desktop\Calculator\Interface\bin\Debug\Process.pdb
+D:\Calculator\Interface\obj\x86\Debug\Interface.exe
+D:\Calculator\Interface\obj\x86\Debug\Interface.pdb
+D:\Calculator\Interface\obj\x86\Debug\Interface.csprojResolveAssemblyReference.cache
+D:\Calculator\Interface\obj\x86\Debug\Interface.Calulator.resources
+D:\Calculator\Interface\obj\x86\Debug\Interface.Properties.Resources.resources
+D:\Calculator\Interface\obj\x86\Debug\Interface.csproj.GenerateResource.Cache
+D:\Calculator\Interface\bin\Debug\Interface.exe
+D:\Calculator\Interface\bin\Debug\Interface.pdb
+D:\Calculator\Interface\bin\Debug\Process.dll
+D:\Calculator\Interface\bin\Debug\Process.pdb
