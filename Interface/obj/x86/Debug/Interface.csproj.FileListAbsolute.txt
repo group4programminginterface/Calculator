@@ -44,3 +44,13 @@ D:\Calculator\Interface\bin\Debug\Interface.exe
 D:\Calculator\Interface\bin\Debug\Interface.pdb
 D:\Calculator\Interface\bin\Debug\Process.dll
 D:\Calculator\Interface\bin\Debug\Process.pdb
+C:\Users\Administrator\Documents\GitHub\Calculator\Interface\obj\x86\Debug\Interface.exe
+C:\Users\Administrator\Documents\GitHub\Calculator\Interface\obj\x86\Debug\Interface.pdb
+C:\Users\Administrator\Documents\GitHub\Calculator\Interface\obj\x86\Debug\Interface.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\Calculator\Interface\obj\x86\Debug\Interface.Calulator.resources
+C:\Users\Administrator\Documents\GitHub\Calculator\Interface\obj\x86\Debug\Interface.Properties.Resources.resources
+C:\Users\Administrator\Documents\GitHub\Calculator\Interface\obj\x86\Debug\Interface.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\GitHub\Calculator\Interface\bin\Debug\Interface.exe
+C:\Users\Administrator\Documents\GitHub\Calculator\Interface\bin\Debug\Interface.pdb
+C:\Users\Administrator\Documents\GitHub\Calculator\Interface\bin\Debug\Process.dll
+C:\Users\Administrator\Documents\GitHub\Calculator\Interface\bin\Debug\Process.pdb
