@@ -215,8 +215,15 @@ namespace Interface
 
         private void button_dot_Click(object sender, EventArgs e)
         {
-            if(! ((chuoi1.Contains(",")) && chuoi2.Contains(",")) )
+            if(! ((chuoi1.Contains(",")) ))
+            {
             them(",");
+            }
+            if(pheptinh!=null)
+            {
+                if(!(chuoi2.Contains(",")))
+                    them(",");
+            }
             
         }
         void congdon()
