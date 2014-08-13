@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using Process;
-
+using System.Data.SqlClient;
 namespace Interface
 {
     public partial class Calulator : Form
@@ -296,7 +296,15 @@ namespace Interface
         {
             phimbang = true;
             kq = TinhToan.Tinh(chuoi1, pheptinh, chuoi2).ToString();
-            hienthi();
+            float kq2 = float.Parse(kq);
+            string thoigian = DateTime.Now.ToString("yyyy/MM/dd hh:mm");
+           // ScreenButtom.Text = thoigian.ToString();
+           hienthi();
+            SqlConnection con = new SqlConnection("server=.\\SERVER;database=maytinh;Integrated security=true;");
+           SqlCommand cmd = new SqlCommand("insert into cal(kq,thoigian) values('" + kq2 + "','"+thoigian+"')", con);
+           con.Open();
+            cmd.ExecuteNonQuery();
+            con.Close();
         }
 
         private void button_square_root_Click(object sender, EventArgs e)
@@ -480,6 +488,16 @@ namespace Interface
                 ScreenTop.Text = chuoi1 + pheptinh;
                 ScreenButtom.Text = "0";
             }
+        }
+
+        private void button_log_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection("server=.\\SERVER;database=maytinh;Integrated security=true;");
+            SqlCommand cmd = new SqlCommand("select thoigian from cal order by thoigian desc", con);
+            con.Open();
+            string kq = cmd.ExecuteNonQuery().ToString();
+            con.Close();
+            ScreenButtom.Text = kq.ToString();
         }
 
     }

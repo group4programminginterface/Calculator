@@ -556,6 +556,7 @@
             this.button_log.TabIndex = 0;
             this.button_log.Text = "log";
             this.button_log.UseVisualStyleBackColor = false;
+            this.button_log.Click += new System.EventHandler(this.button_log_Click);
             // 
             // button38
             // 
@@ -820,19 +821,19 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.fileToolStripMenuItem.Text = "View";
             // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.editToolStripMenuItem.Text = "Edit";
             // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // button_mod
