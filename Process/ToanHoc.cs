@@ -21,7 +21,7 @@ namespace Process
         {
             double kq=1;
             for (int i = 1; i <= x; i++)
-                kq *= x;
+                kq *= i;
             return kq;
         }
         public static double pi()

@@ -64,3 +64,13 @@ E:\Box Sync\Documents\GitHub\Calculator\Interface\obj\x86\Debug\Interface.csproj
 E:\Box Sync\Documents\GitHub\Calculator\Interface\obj\x86\Debug\Interface.Calulator.resources
 E:\Box Sync\Documents\GitHub\Calculator\Interface\obj\x86\Debug\Interface.Properties.Resources.resources
 E:\Box Sync\Documents\GitHub\Calculator\Interface\obj\x86\Debug\Interface.csproj.GenerateResource.Cache
+E:\Documents\Information_Technolory\Lap Trinh Giao Dien\Calculator\Interface\obj\x86\Debug\Interface.exe
+E:\Documents\Information_Technolory\Lap Trinh Giao Dien\Calculator\Interface\obj\x86\Debug\Interface.pdb
+E:\Documents\Information_Technolory\Lap Trinh Giao Dien\Calculator\Interface\bin\Debug\Interface.exe
+E:\Documents\Information_Technolory\Lap Trinh Giao Dien\Calculator\Interface\bin\Debug\Interface.pdb
+E:\Documents\Information_Technolory\Lap Trinh Giao Dien\Calculator\Interface\bin\Debug\Process.dll
+E:\Documents\Information_Technolory\Lap Trinh Giao Dien\Calculator\Interface\bin\Debug\Process.pdb
+E:\Documents\Information_Technolory\Lap Trinh Giao Dien\Calculator\Interface\obj\x86\Debug\Interface.csprojResolveAssemblyReference.cache
+E:\Documents\Information_Technolory\Lap Trinh Giao Dien\Calculator\Interface\obj\x86\Debug\Interface.Calulator.resources
+E:\Documents\Information_Technolory\Lap Trinh Giao Dien\Calculator\Interface\obj\x86\Debug\Interface.Properties.Resources.resources
+E:\Documents\Information_Technolory\Lap Trinh Giao Dien\Calculator\Interface\obj\x86\Debug\Interface.csproj.GenerateResource.Cache

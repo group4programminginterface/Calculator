@@ -18,3 +18,13 @@ C:\Users\Administrator\Documents\GitHub\Calculator\Process\bin\Debug\Process.pdb
 C:\Users\Administrator\Documents\GitHub\Calculator\Process\obj\Debug\Process.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\GitHub\Calculator\Process\obj\Debug\Process.dll
 C:\Users\Administrator\Documents\GitHub\Calculator\Process\obj\Debug\Process.pdb
+E:\Box Sync\Documents\GitHub\Calculator\Process\bin\Debug\Process.dll
+E:\Box Sync\Documents\GitHub\Calculator\Process\bin\Debug\Process.pdb
+E:\Box Sync\Documents\GitHub\Calculator\Process\obj\Debug\Process.csprojResolveAssemblyReference.cache
+E:\Box Sync\Documents\GitHub\Calculator\Process\obj\Debug\Process.dll
+E:\Box Sync\Documents\GitHub\Calculator\Process\obj\Debug\Process.pdb
+E:\Documents\Information_Technolory\Lap Trinh Giao Dien\Calculator\Process\bin\Debug\Process.dll
+E:\Documents\Information_Technolory\Lap Trinh Giao Dien\Calculator\Process\bin\Debug\Process.pdb
+E:\Documents\Information_Technolory\Lap Trinh Giao Dien\Calculator\Process\obj\Debug\Process.csprojResolveAssemblyReference.cache
+E:\Documents\Information_Technolory\Lap Trinh Giao Dien\Calculator\Process\obj\Debug\Process.dll
+E:\Documents\Information_Technolory\Lap Trinh Giao Dien\Calculator\Process\obj\Debug\Process.pdb

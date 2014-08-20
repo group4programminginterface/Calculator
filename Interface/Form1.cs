@@ -12,7 +12,7 @@ namespace Interface
 {
     public partial class Calulator : Form
     {
-        
+
         public Calulator()
         {
             InitializeComponent();
@@ -23,10 +23,10 @@ namespace Interface
             radio_degrees.Checked = true;
             hienthi();
         }
-       
+
         //
-        string chuoi1, chuoi2, pheptinh,kq;
-        bool kiemtra=false,phimbang=false;
+        string chuoi1, chuoi2, pheptinh, kq;
+        bool kiemtra = false, phimbang = false;
 
         //
         void hienthi()
@@ -49,7 +49,7 @@ namespace Interface
 
         void them(string str)
         {
-            if (phimbang==true)
+            if (phimbang == true)
             {
                 xoa();
 
@@ -62,28 +62,28 @@ namespace Interface
                     goto lap;
                 chuoi2 += str;
             }
-            lap:
+        lap:
             hienthi();
         }
         void xoa1()
         {
-           /*
-           if (!kiemtra)
-            {
-                if (chuoi1==null) {ScreenButtom.Text = "0"; }
-                else
-                    chuoi1.Remove((chuoi1.Length - 1),1);
-            }
-            else
-            {
-                if (chuoi2==null) {ScreenButtom.Text = "0"; }
-                else
-                    chuoi2.Remove((chuoi2.Length - 1),1);
-            }
-            if (phimbang) xoa();
-            hienthi();
-             */
-            
+            /*
+            if (!kiemtra)
+             {
+                 if (chuoi1==null) {ScreenButtom.Text = "0"; }
+                 else
+                     chuoi1.Remove((chuoi1.Length - 1),1);
+             }
+             else
+             {
+                 if (chuoi2==null) {ScreenButtom.Text = "0"; }
+                 else
+                     chuoi2.Remove((chuoi2.Length - 1),1);
+             }
+             if (phimbang) xoa();
+             hienthi();
+              */
+
             if (!kiemtra)
             {
                 if (chuoi1 == null) { ScreenButtom.Text = "0"; }
@@ -93,12 +93,12 @@ namespace Interface
                     int n = str.Length;
                     chuoi1 = (str.Substring(0, n - 1));
                     if (chuoi1.Length == 0) { chuoi1 = "0"; }
-                    
+
                 }
-                   
-                    
-                    //chuoi1.Remove(chuoi1.Length - 1, 1);
-                
+
+
+                //chuoi1.Remove(chuoi1.Length - 1, 1);
+
 
             }
             else
@@ -115,7 +115,7 @@ namespace Interface
             }
             if (phimbang) xoa();
             hienthi();
-            
+
         }
         void xoa()
         {
@@ -135,7 +135,7 @@ namespace Interface
                 }
                 else if (pheptinh != null)
                 {
-                    if (chuoi2=="0")
+                    if (chuoi2 == "0")
                     {
                         chuoi2 = "0";
                     }
@@ -143,7 +143,7 @@ namespace Interface
                     {
                         them("0");
                     }
-                    
+
                 }
             }
             else if ((chuoi1 != "0"))
@@ -152,20 +152,20 @@ namespace Interface
             }
 
 
-           
-           /*     if (chuoi1 == "0")
-                {
-                    xoa();
-                    kiemtra = false;
 
-                }
-                else if (chuoi2 == null)
-                {
-                    xoa();
-                    kiemtra = false;
-                }
-                them("0");
-            */
+            /*     if (chuoi1 == "0")
+                 {
+                     xoa();
+                     kiemtra = false;
+
+                 }
+                 else if (chuoi2 == null)
+                 {
+                     xoa();
+                     kiemtra = false;
+                 }
+                 them("0");
+             */
         }
 
         private void button_1_Click(object sender, EventArgs e)
@@ -215,16 +215,16 @@ namespace Interface
 
         private void button_dot_Click(object sender, EventArgs e)
         {
-            if(! ((chuoi1.Contains(",")) ))
+            if (!((chuoi1.Contains(","))))
             {
-            them(",");
+                them(",");
             }
-            if(pheptinh!=null)
+            if (pheptinh != null)
             {
-                if(!(chuoi2.Contains(",")))
+                if (!(chuoi2.Contains(",")))
                     them(",");
             }
-            
+
         }
         void congdon()
         {
@@ -242,7 +242,7 @@ namespace Interface
             congdon();
             kiemtra = true;
             pheptinh = "+";
-            ScreenButtom.Text+= pheptinh;
+            ScreenButtom.Text += pheptinh;
         }
 
         private void button_minus_Click(object sender, EventArgs e)
@@ -298,18 +298,19 @@ namespace Interface
             kq = TinhToan.Tinh(chuoi1, pheptinh, chuoi2).ToString();
             float kq2 = float.Parse(kq);
             string thoigian = DateTime.Now.ToString("yyyy/MM/dd hh:mm");
-           // ScreenButtom.Text = thoigian.ToString();
-           hienthi();
-            SqlConnection con = new SqlConnection("server=.\\SERVER;database=maytinh;Integrated security=true;");
-           SqlCommand cmd = new SqlCommand("insert into cal(kq,thoigian) values('" + kq2 + "','"+thoigian+"')", con);
-           con.Open();
+            // ScreenButtom.Text = thoigian.ToString();
+            hienthi();
+            SqlConnection con = new SqlConnection("server=k45A;database=maytinh;Integrated security=true;");
+            SqlCommand cmd = new SqlCommand("insert into cal(kq,thoigian) values('" + kq2 + "','" + thoigian + "')", con);
+            con.Open();
             cmd.ExecuteNonQuery();
             con.Close();
+            test = true;
         }
 
         private void button_square_root_Click(object sender, EventArgs e)
         {
-            if (chuoi1!=null || chuoi2!=null)
+            if (chuoi1 != null || chuoi2 != null)
             {
                 if (!kiemtra)
                     chuoi1 = TinhToan.canbac(float.Parse(chuoi1)).ToString();
@@ -328,7 +329,7 @@ namespace Interface
         private void button_1_divided_x_Click(object sender, EventArgs e)
         {
             ScreenButtom.Text = TinhToan.motchiax(double.Parse(chuoi1.ToString())).ToString();
-            chuoi1.Replace(chuoi1.ToString(),ScreenButtom.Text);
+            chuoi1.Replace(chuoi1.ToString(), ScreenButtom.Text);
         }
 
         private void button38_Click(object sender, EventArgs e)
@@ -340,7 +341,7 @@ namespace Interface
 
         private void button36_Click(object sender, EventArgs e)
         {
-            if (chuoi1!=null)
+            if (chuoi1 != null)
                 chuoi1 = ToanHoc.binhphuong(double.Parse(chuoi1), 3).ToString();
             hienthi();
         }
@@ -446,7 +447,7 @@ namespace Interface
         private void button30_Click(object sender, EventArgs e)
         {
             if (chuoi1 != null)
-                chuoi1 = ToanHoc.canbac(double.Parse(chuoi1),3).ToString();
+                chuoi1 = ToanHoc.canbac(double.Parse(chuoi1), 3).ToString();
             hienthi();
         }
 
@@ -478,26 +479,43 @@ namespace Interface
                 }
                 else
                 {
-                ScreenTop.Text = chuoi1+pheptinh;
-                ScreenButtom.Text = "0";
+                    ScreenTop.Text = chuoi1 + pheptinh;
+                    ScreenButtom.Text = "0";
                 }
             }
-            if(chuoi2!=null)
+            if (chuoi2 != null)
             {
                 chuoi2 = null;
                 ScreenTop.Text = chuoi1 + pheptinh;
                 ScreenButtom.Text = "0";
             }
         }
-
+        bool test = false;
+        int solannhat = 0;
         private void button_log_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("server=.\\SERVER;database=maytinh;Integrated security=true;");
-            SqlCommand cmd = new SqlCommand("select thoigian from cal order by thoigian desc", con);
+            if (test == false)
+                solannhat += 1;
+            else solannhat = 1;
+            solannhat = false;
+            string a = "";
+            string caulenh = "select top " + solannhat.ToString() + " kq from cal order by thoigian desc";
+            SqlConnection con = new SqlConnection("server=K45A;database=maytinh;Integrated security=true;");
+            SqlCommand cmd=new SqlCommand(caulenh, con);
             con.Open();
-            string kq = cmd.ExecuteNonQuery().ToString();
-            con.Close();
-            ScreenButtom.Text = kq.ToString();
+            SqlDataReader sdr = cmd.ExecuteReader();
+            while (sdr.Read())
+            {
+                a = sdr[0].ToString();
+            }
+            ScreenButtom.Text = a;
+            if (ScreenButtom.Text == "") solannhat = 1;
+            //con.Close();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
 
     }
